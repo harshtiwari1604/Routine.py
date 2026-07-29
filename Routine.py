@@ -8,6 +8,7 @@ st.set_page_config(
 )
 
 # --- SECURE CREDENTIALS SETUP ---
+# --- SECURE CREDENTIALS SETUP ---
 SUPABASE_URL = st.secrets.get(
     "SUPABASE_URL", "https://vryxhpolhefvuqxshxsq.supabase.co"
 )
