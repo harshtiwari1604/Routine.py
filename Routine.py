@@ -9,8 +9,7 @@ st.set_page_config(
 
 # --- SECURE CREDENTIALS SETUP ---
 SUPABASE_URL = "https://bqnmzwqayxetuhlygjim.supabase.co"
-SUPABASE_KEY = "sb_publishable_CronO2VjYTyyHdV0iOkJWw_2BPsJeyz"
-
+SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJxbm16d3FheXhldHVobHlnamltIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODUyODY1MjQsImV4cCI6MjEwMDg2MjUyNH0.Xkfbl2puPZxOhRMkmyQWbhIJnbUiNh5Isf5GynUnWNM"
 
 @st.cache_resource
 def init_supabase():
