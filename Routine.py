@@ -7,14 +7,13 @@ st.set_page_config(
     page_title="Routine Manager Pro", page_icon="⏰", layout="wide"
 )
 
-# --- SECURE CREDENTIALS SETUP ---
+# --- DIRECT SECURE CREDENTIALS SETUP ---
 SUPABASE_URL = "https://bqnmzwqayxetuhlygjim.supabase.co"
 SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJxbm16d3FheXhldHVobHlnamltIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODUyODY1MjQsImV4cCI6MjEwMDg2MjUyNH0.Xkfbl2puPZxOhRMkmyQWbhIJnbUiNh5Isf5GynUnWNM"
 
 @st.cache_resource
 def init_supabase():
-  return create_client(SUPABASE_URL, SUPABASE_KEY)
-
+    return create_client(SUPABASE_URL, SUPABASE_KEY)
 
 supabase = init_supabase()
 
