@@ -9,12 +9,9 @@ st.set_page_config(
 
 # --- SECURE CREDENTIALS SETUP ---
 # --- SECURE CREDENTIALS SETUP ---
-SUPABASE_URL = st.secrets.get(
-    "SUPABASE_URL", "https://vryxhpolhefvuqxshxsq.supabase.co"
-)
-SUPABASE_KEY = st.secrets.get(
-    "SUPABASE_KEY", "sb_publishable_-yQnaJJeKHq0XEm1-4-AQw_HTBUynKk"
-)
+# --- SECURE CREDENTIALS SETUP ---
+SUPABASE_URL = "https://bqnmzwqayxetuhlygjim.supabase.co"
+SUPABASE_KEY = "sb_publishable_CronO2VjYTyyHdV0iOkJWw_2BPsJeyz"
 
 
 @st.cache_resource
