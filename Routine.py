@@ -8,8 +8,8 @@ st.set_page_config(
 )
 
 # --- SECURE CREDENTIALS SETUP ---
-SUPABASE_URL = st.secrets["https://bqnmzwqayxetuhlygjim.supabase.co"]
-SUPABASE_KEY = st.secrets["sb_publishable_CronO2VjYTyyHdV0iOkJWw_2BPsJeyz"]
+SUPABASE_URL = "https://bqnmzwqayxetuhlygjim.supabase.co"
+SUPABASE_KEY = "sb_publishable_CronO2VjYTyyHdV0iOkJWw_2BPsJeyz"
 
 
 @st.cache_resource
